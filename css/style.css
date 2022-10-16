@@ -1,0 +1,266 @@
+@import url(./fonts.css); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+} 
+
+
+.header {
+    max-width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+} 
+
+.container__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 18px 0;
+} 
+
+.logo__box {
+    display: flex;
+    gap: 18px; 
+    align-items: center;
+   
+} 
+
+.logo__index {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #333333; 
+    padding-bottom: 6px;
+} 
+
+.menu {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+} 
+
+.menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #404040; 
+}  
+
+.banner {
+    background: url(../img/minimal-banner.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%; 
+    position: relative;
+} 
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+
+.banner__headline { 
+    font-family: 'Montserrat';
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #FFFFFF; 
+    padding-top: 105px;
+}  
+
+.banner__headline-under {
+    font-family: 'Montserrat';
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #FFFFFF;
+} 
+
+.white__line-banner {
+    padding: 28px 0 25px 0;
+}
+
+.banner__desc {
+    font-family: 'Vollkorn';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF; 
+    opacity: 81%; 
+    padding-bottom: 101px;
+} 
+
+.under__banner {
+    max-width: 100%;
+    background-color: #FEFEC9;
+} 
+
+.under__banner-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.under__banner-desc {
+    padding: 60px 0 39px 0;
+    font-family: 'Vollkorn';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 940px;
+    color: #47474F; 
+    text-align: center;
+} 
+
+.btn {
+    font-family: 'Vollkorn';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #47474F;
+    padding: 13px 34px 20px; 
+    background: #FEFEC9; 
+    border: 1px solid #47474F;
+    border-bottom: 2px solid #47474F;
+} 
+
+.btn__setup {
+    padding-bottom: 59px;
+} 
+
+.crosshair {
+    position: absolute; 
+    top: -9%;
+} 
+
+
+.thrive__h {
+    padding: 79px 0 73px 0; 
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+} 
+
+.thrive__wrap {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.thrive__box { 
+    max-width: 297px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.img__thrive-box { 
+    max-width: 300px; 
+    background-color: #F5F5F5; 
+    padding: 50px 87px; 
+} 
+
+.thrive__target{
+    padding: 38px 0 20px 0; 
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+} 
+
+.thrive__desc {
+    font-family: 'Vollkorn';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+} 
+
+.projects {
+    margin-top: 74px;
+    max-width: 100%;
+    background-color: #F5F5F5;
+} 
+
+.projects__h-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 28px;
+    padding-top: 79px;
+} 
+
+.projects__h {
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px; 
+    color: #333333;
+} 
+
+.white__line-box {
+    padding-bottom: 43px;
+} 
+
+.project__card {
+    max-width: 300px;
+    background-color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.project__h { 
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333; 
+    padding: 19px 0 4px 0;
+} 
+
+
+.projects__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding-bottom: 89px;
+}
+
+
+.project__desc {
+    font-family: 'Vollkorn';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333; 
+    padding-bottom: 21px;
+} 
+
+
+    
